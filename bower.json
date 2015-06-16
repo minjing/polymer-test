@@ -1,0 +1,21 @@
+{
+  "name": "polymer-test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/minjing/polymer-test",
+  "authors": [
+    "min"
+  ],
+  "description": "Test project of Polymer",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-input": "PolymerElements/iron-input#^1.0.0"
+  }
+}
