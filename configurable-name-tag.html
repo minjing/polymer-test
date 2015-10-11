@@ -2,14 +2,14 @@
 
 <dom-module id="configurable-name-tag">
     <template>
-        This is <b>{{owner}}</b>'s configurable-name-tag element.
+        This is <b>{{ownerName}}</b>'s configurable-name-tag element.
     </template>
 
     <<script>
         Polymer({
             is: "configurable-name-tag",
             properties: {
-                owner: {
+                ownerName: {
                     type: String,
                     value: "Min"
                 }
